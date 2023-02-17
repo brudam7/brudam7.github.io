@@ -1,0 +1,389 @@
+/* Importar fuentes */
+@import url('https://fonts.googleapis.com/css2? family=Gentium+Book+Plus:ital@1&family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    font-family: "Roboto Slab";
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Inicio */
+.inicio {
+    background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, .3) 73%),
+        url("Imagenes/patron-icosaedro-cobre-sobre-negro.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.inicio .contenedor {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 .65rem;
+}
+
+.inicio .contenedor header {
+    padding: 1.87rem;
+}
+
+.inicio .contenedor header nav {
+    position: fixed;
+    margin-left: 3.75rem;
+    background-color: rgba(255, 165, 0, 1);
+    padding: 1rem;
+    border-radius: .7rem;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+
+.inicio .contenedor header nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.65rem;
+    font-weight: bold;
+}
+
+/* ***** */
+.inicio .contenedor header .logo {
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Gentium Book Plus";
+    text-shadow: 0 0 35px #fff;
+}
+
+.inicio .contenedor header .logo .color {
+    color: black;
+    font-family: "Gentium Book Plus";
+}
+
+.inicio .contenedor header .barra {
+    position: fixed;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.inicio .contenedor header .barra:hover {
+    box-shadow: 0 0 35px yellow;
+}
+
+.inicio .contenedor .info {
+    padding-bottom: 130px;
+}
+
+.inicio .contenedor .info h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.inicio .contenedor .info h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+.inicio .contenedor .info .redes {
+    margin: 20px 0;
+}
+
+.inicio .contenedor .info .redes a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.inicio .contenedor .info .redes a:hover {
+    background-color: orange;
+    box-shadow: 0 0 20px yellow;
+}
+
+.inicio .contenedor .foto {
+    position: relative;
+}
+
+.inicio .contenedor .foto img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px 0 yellow;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+
+/* ESTILOS GENERALES */
+.titulo-principal {
+    font-family: "Roboto Condensed";
+    font-size: 1.5rem;
+}
+
+/* SECCION ACERCA DE MI */
+.acercademi {
+    background-color: #0c4953b4;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+
+.acercademi .contenedor {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.acercademi .contenedor h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.acercademi .contenedor .especial {
+    color: black;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.acercademi .contenedor p {
+    max-width: 700px;
+    margin: auto;
+    color: black;
+}
+
+.acercademi .contenedor .fila {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.acercademi .contenedor .col {
+    width: 30%;
+}
+
+.acercademi .contenedor .fila .col i {
+    color: black;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #0c4953b4;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.acercademi .contenedor .fila .col span {
+    display: block;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* SECCION HABLIDADES */
+.habilidades {
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, .3) 73%),
+        url("Imagenes/patron-icosaedro-cobre-sobre-negro.jpg");
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.habilidades .contenido {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.habilidades .contenido h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.habilidades .contenido .fila {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.habilidades .contenido .fila .col {
+    width: 47%;
+    text-align: left;
+}
+
+.habilidades .contenido .fila .col .contenido-barra {
+    display: flex;
+    align-items: center;
+}
+
+.habilidades .contenido .barra {
+    display: flex;
+    border: 1px solid rgba(255, 166, 0, 0.726);
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.habilidades .contenido .barra .e {
+    background-color: rgb(14, 13, 13);
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+
+/* SECCION RESUMEN */
+.resumen {
+    background-color: #bed2d3ce;
+    text-align: center;
+    padding: 140px 0 100px 0;
+}
+
+.resumen .contenido {
+    width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.resumen .contenido h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.resumen .contenido .info {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.resumen .contenido .info .col {
+    width: 45%;
+}
+
+.resumen .contenido .info .col .titulo {
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #0c4953b4;
+    padding: 10px;
+}
+
+.resumen .contenido .info .col table {
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.resumen .contenido .info .col table .datos {
+    width: 40%;
+    border-bottom: 1px solid black;
+}
+
+.resumen .contenido .info .col table h4 {
+    margin-top: 10px;
+}
+
+.resumen .contenido .info .col table h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.resumen .contenido .info .col table p {
+    font-size: 14px;
+}
+
+.resumen .contenido .info .col table .descripcion {
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+
+/* SECCION CONTACTO */
+.contacto {
+    background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, .3) 73%),
+        url("Imagenes/patron-icosaedro-cobre-sobre-negro.jpg");
+    padding: 140px 0 100px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.contacto .contenido {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contacto .contenido h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.contacto .contenido .fila {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto .contenido .fila .col {
+    margin-top: 50px;
+}
+
+.contacto .contenido .fila .col h2 {
+    color: orange;
+}
+
+/*SECCION RESPONSIVE*/
+@media screen and (max-width:800px) {
+    .habilidades .contenido .fila {
+        display: block;
+    }
+
+    .habilidades .contenido .fila .col {
+        width: 100%;
+        text-align: center;
+    }
+    .habilidades .contenido .fila .col .contenido-barra {
+        justify-content: center;
+    }
+    .acercademi .contenido .fila {
+        display: block;
+    }
+    .acercademi .contenido .fila .col {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .resumen .contenido .info {
+        display: block;
+    }
+    .resumen .contenido .fila .col {
+        width: 90%;
+        margin: auto;
+    }
+    .resumen .contenido .fila .col {
+        display: block;
+        text-align: center;
+    }
+    .resumen .contenido .fila .col table {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contacto .contenido .fila {
+        display: block;
+    }
+}
